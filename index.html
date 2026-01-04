@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cinchana S | Cybersecurity Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0b0f14; /* ink black */
+      color: #f0f8ff; /* alice blue */
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 5%;
+      background-color: #0f1c1f; /* stormy teal */
+    }
+
+    nav a {
+      color: #f0f8ff;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header {
+      text-align: center;
+      padding: 5rem 5%;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url('assets/images/hero-background.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 3px solid #5fb3b3;
+      margin-bottom: 1rem;
+    }
+
+    section {
+      padding: 4rem 8%;
+    }
+
+    h2 {
+      color: #5fb3b3;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background-color: #0f1c1f;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background-color: #5fb3b3;
+      color: #000;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #0f1c1f;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      section {
+        padding: 3rem 5%;
+      }
+      header img {
+        width: 130px;
+        height: 130px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <strong>Cinchana S</strong>
+    <div>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <img src="assets/images/profile.jpg" alt="Cinchana S">
+    <h1>Hi, I'm Cinchana</h1>
+    <h3>Red Team  &  VAPT Enthusiast</h3>
+    <a class="btn" href="assets/resume/Cinchana_S_Resume-1.pdf" download>Download Resume</a>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a CEH-certified cybrsecurity enthusiast with a strong interest in Red Team operations and
+        Vulnerability Assessment & Penetration Testing (VAPT). I enjoy learning how real-world attacks work
+        and applying security concepts through hands-on projects and internships.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Network Security Automation with Python</h3>
+      <p>
+        Python-based tool for packet sniffing, protocol analysis, and traffic visualization using Scapy
+        and Matplotlib.
+      </p>
+      <a class="btn" href="assets/projects/network_security_project.pdf" target="_blank">View Project</a>
+    </div>
+
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="card">
+      <p>Certified Ethical Hacker (CEH)</p>
+      <a class="btn" href="assets/certificates/CEH.pdf" target="_blank">View Certificate</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: your@email.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/cinchanas" target="_blank">linkedin.com/in/cinchanas</a></p>
+      <p>GitHub: <a href="https://github.com/CinchanaS" target="_blank">github.com/cinchu27</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Cinchana S | Cybersecurity Portfolio
+  </footer>
+
+</body>
+</html>
